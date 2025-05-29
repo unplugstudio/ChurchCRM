@@ -1,4 +1,9 @@
 RewriteEngine On
+
+# Evita reescribir si estás accediendo a /setup
+RewriteCond %{REQUEST_URI} ^/setup [NC]
+RewriteRule ^ - [L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php [QSA,L]
+RewriteRule ^ index.php [QSA,L]
