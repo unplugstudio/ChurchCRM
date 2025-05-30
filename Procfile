@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 src/
+web: heroku-php-nginx src/setup
