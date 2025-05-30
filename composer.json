@@ -82,7 +82,7 @@
     "autoload": {
        "autoload": {
     "psr-4": {
-        "ChurchCRM\\": "ChurchCRM/"
+        "ChurchCRM\\": "scr/ChurchCRM/"
     }
 },
         "classmap": [
