@@ -80,14 +80,12 @@
         }
     },
     "autoload": {
-       "autoload": {
-    "psr-4": {
-         "ChurchCRM\\": "ChurchCRM/",
+        "psr-4": {
+            "ChurchCRM\\": "ChurchCRM/",
             "\\": "bin/"
-    }
-},
+        },
         "classmap": [
-          "/ChurchCRM/"
+            "ChurchCRM/"
         ]
     },
     "config": {
