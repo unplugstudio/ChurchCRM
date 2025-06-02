@@ -1,3 +1,3 @@
 <?php
-echo "Prueba";
-?>
+header("Location: /src/");
+exit;
