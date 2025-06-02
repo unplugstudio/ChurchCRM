@@ -1,1 +1,1 @@
-web: heroku-php-nginx; src
+web: heroku-php-nginx
