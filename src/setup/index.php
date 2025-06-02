@@ -11,7 +11,7 @@ if (file_exists('../Include/Config.php')) {
     exit;
 }
 
-require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 $rootPath = str_replace('/setup/index.php', '', $_SERVER['SCRIPT_NAME']);
 
 SystemURLs::init($rootPath, '', __DIR__ . '/../');
