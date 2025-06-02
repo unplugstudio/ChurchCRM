@@ -1,0 +1,14 @@
+{
+  "name": "churchcrm/churchcrm",
+  "description": "ChurchCRM - A free church management software",
+  "type": "project",
+  "require": {
+    "php": "^8.1",
+    "ext-pdo": "*",
+    "ext-mbstring": "*",
+    "ext-gd": "*",
+    "ext-xml": "*",
+    "ext-curl": "*",
+    "ext-zip": "*"
+  }
+}
