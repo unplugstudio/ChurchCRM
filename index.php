@@ -1,3 +1,3 @@
 <?php
-echo "Prueba el index";
+echo "Prueba el indexx";
 ?>
